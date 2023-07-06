@@ -12,14 +12,35 @@
 
 <body>
     <header>
-        <img src="../images/Logo_Leidy_Abello__1_-removebg-preview.png" alt="Logo de empresa con el nombre Leidy Abello en color rosa">
-        <nav><ul>
-            <li> <a href="../index.html">HOME</a></li>
-            <li><a href="../pages/productos.html">PRODUCTOS</a></li>
-            <li><a href="../pages/aboutme.html">ACERCA DE MI</a></li>
-            <li><a href="../pages/contacto.html">CONTACTO</a></li>
-            <li><a href="../pages/login.html"><input type="button" value="LOGIN"></a></li>
-        </ul></nav>
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+              <a class="navbar-brand" href="../index.html"><img src="../images/Logo_Leidy_Abello__1_-removebg-preview.png" alt="" class="w-75"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end"  id="navbarNavDropdown">
+                <ul class="navbar-nav justify-content-end" >
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="aboutme.html">Acerca de mi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                  </ul>
+              </div>
+              <nav class="navbar bg">
+                <form class="container justify-content-end">
+                  <a class="btn btn-primary" href="login.html" role="button">Iniciar Sesion</a>
+                </form>
+              </nav>
+            </div>
+          </nav>
     </header>
     <main>
         <article>
