@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* HEADER*/
+header{
+    display: flex;
+    background-color: #ffebee;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    display: flex;
+    max-width: 100%;
+    height: 40px;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.banner{
+    background-color: #ffebee;
+
+}
+.banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+.msjdivisor {
+    color: #ffebee;
+    text-align: center;
+    background-color: #ef9a9a;
+    padding: 1rem;
+}
+.bannerfull {
+    display: flex;
+    background-color: #ffebee;
+}
+.bannerfull img {
+    width: 100%;
+    height: auto;
+}
+.bannerfulltext {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.titleprod {
+    color: #ffa000;
+    text-align: center;
+    padding: 1rem;
+    }
+
+.productos {
+    display: flex;
+}
+.prod1 img  {
+    width: 50%;
+    height: auto;
+    flex-grow: 0;
+}
+.prod2 img {
+    width: 50%;
+    height: auto;
+    flex-grow: 0;
+}
+.prod3 img {
+    width: 50%;
+    height: auto;
+    flex-grow: 0;
+}
+
+.socialmedia {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    background-color: #ffebee;
+
+}
+.socialmedia img {
+    width: 20px;
+    height: auto;
+    flex-grow: 0;
+margin: 5px;
+
+}
+.socialmedia ol {
+    display: flex;
+    list-style: none;
+}
+.navend {
+    display: flex;
+    background-color: #ffebee;
+    padding: 1rem;
+    justify-content:center;
+    align-items:center;
+}
+
+.navend ol {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.aboutme {
+    display: flex;
+}
+.aboutme img {
+    width: 50%;
+    height: auto;
+}
+.contacto {
+    display: flex;
+    background-color: #ffebee;
+}
+h1 {
+    background-color: #ffebee;
+}
+.contacto ol img {
+    width: 20px;
+    height: auto;
+}
