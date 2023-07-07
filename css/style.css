@@ -59,21 +59,6 @@ header ul {
 .productos {
     display: flex;
 }
-.prod1 img  {
-    width: 50%;
-    height: auto;
-    flex-grow: 0;
-}
-.prod2 img {
-    width: 50%;
-    height: auto;
-    flex-grow: 0;
-}
-.prod3 img {
-    width: 50%;
-    height: auto;
-    flex-grow: 0;
-}
 
 .socialmedia {
     display: flex;    
