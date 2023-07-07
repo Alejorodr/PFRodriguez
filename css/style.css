@@ -17,6 +17,14 @@ header ul {
     gap: 20px;
     list-style: none;
 }
+.btn-primary{
+    --bs-btn-color: black;
+    --bs-btn-bg: white;
+    --bs-btn-border-color: #ef9a9a;
+    --bs-btn-hover-bg: #ef9a9a;
+    --bs-btn-hover-border-color: white;
+    --bs-btn-border-radius: 25px
+}
 .banner img {
     width: 100%;
     height: auto;
