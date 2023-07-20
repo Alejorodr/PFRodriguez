@@ -1,16 +1,28 @@
+.c-rosabg{
+    background-color: #ffebee;
+}
+
+.c-rosahl{
+    background-color: #ef9a9a;
+}
+.c-blancobg{
+    background-color: white;
+}
+.c-goldtx{
+    color: darkgoldenrod;
+}
+.c-blancotx{
+    color: white;
+}
+
 a{
     text-decoration: none;
     color: black;
 }
-/* HEADER*/
-header{
-    background-color: #ffebee;
-    padding: 1rem;
 
-}
 header img {
     max-width: 100%;
-    height: 40px;
+    height: 60px;
 }
 
 header ul {
@@ -25,40 +37,6 @@ header ul {
     --bs-btn-hover-border-color: white;
     --bs-btn-border-radius: 25px
 }
-.banner img {
-    width: 100%;
-    height: auto;
-    border-radius: 25px;
-}
-.msjdivisor {
-    color: #ffebee;
-    text-align: center;
-    background-color: #ef9a9a;
-    padding: 1rem;
-}
-.bannerfull {
-    display: flex;
-    background-color: #ffebee;
-}
-.bannerfull img {
-    width: 100%;
-    height: auto;
-}
-.bannerfulltext {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    
-}
-.titleprod {
-    color: #ffa000;
-    text-align: center;
-    padding: 1rem;
-    }
-
-.productos {
-    display: flex;
-}
 
 .socialmedia {
     display: flex;    
@@ -68,7 +46,7 @@ header ul {
 
 }
 .socialmedia img {
-    width: 20px;
+    width: 40px;
     height: auto;
     flex-grow: 0;
 margin: 5px;
@@ -90,20 +68,4 @@ margin: 5px;
     display: flex;
     gap: 20px;
     list-style: none;
-}
-.aboutme {
-    display: flex;
-}
-.aboutme img {
-    width: 50%;
-    height: auto;
-}
-.contacto {
-    display: flex;
-    background-color: #ffebee;
-}
-
-.contacto ol img {
-    width: 20px;
-    height: auto;
 }
